@@ -4,10 +4,20 @@
         <title></title>
         <style>
             /* Your styles here! */
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .input {
+                text-align: left;
+                
+            }
         </style>
     </head>
     <body>
-
+    <div class="container">
         <p class="input">
             <label for="amount">Bill</label>
             <input id="amount" type="number" value="0.00">
@@ -34,6 +44,6 @@
             <span>Total:</span>
             <span id="total">0.00</span>
         </p>
-
+    </div>
     </body>
 </html>
