@@ -5,34 +5,63 @@
         <style>
             /* Your styles here! */
 
+            body {
+                font-family: Helvetica;
+            }
+
             .container {
                 display: flex;
                 flex-direction: column;
+                justify-content: space-evenly;
                 align-items: center;
+                font-style: Helvetica;
             }
 
             .input {
                 display: flex;
                 flex-direction: column;
+                font-style: Helvetica;
+                font-size: .8em;
 
             }
 
-            #amount, #percent, #calculate {
+            #amount, #percent {
 
                 display: flex;
                 justify-content: center;
-
-                border-radius: 10px;
-                border: 2px solid grey;
+                align-items: center;
+                text-align: center;
+                font-size: 2em;
+                color: #4d4d4d;
+                border-radius: 5px;
+                border: 1px solid black;
                 padding: 20px;
-                height: 15px;
-                width: 100px;
-
-
-
-
+                height: 8px;
+                width: 150px;
+                background-color: #f2f2f2;
 
             }
+
+            #calculate {
+                border-radius: 5px;
+                border: 2px solid #a6a6a6;
+                padding: 20px;
+                height: 2px;
+                width: 193px;
+                background-color: #f2f2f2;
+                font-size: 1em;
+                color: #737373;
+
+            }
+
+            #tip, #total {
+                display: flex;
+                flex-direction: row;
+                
+
+                font-size: 2em;
+            }
+
         </style>
     </head>
     <body>
