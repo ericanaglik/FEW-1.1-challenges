@@ -9,13 +9,15 @@
                 font-family: Helvetica;
             }
 
-            .container {
+            .container:not(output) {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
                 font-style: Helvetica;
+                width: 240px;
             }
+
 
             .input {
                 display: flex;
@@ -23,6 +25,14 @@
                 font-style: Helvetica;
                 font-size: .8em;
 
+            }
+
+            .output {
+                display: flex;
+                flex direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 200px;
             }
 
             #amount, #percent {
@@ -43,6 +53,10 @@
             }
 
             #calculate {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
                 border-radius: 5px;
                 border: 2px solid #a6a6a6;
                 padding: 20px;
@@ -51,15 +65,12 @@
                 background-color: #f2f2f2;
                 font-size: 1em;
                 color: #737373;
-
             }
 
             #tip, #total {
-                display: flex;
-                flex-direction: row;
-                
 
                 font-size: 2em;
+
             }
 
         </style>
