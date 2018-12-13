@@ -1,0 +1,97 @@
+body {
+	font-family: Helvetica;
+}
+
+.container:not(output) {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Helvetica;
+	width: 240px;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	font-family: Helvetica;
+	font-size: .8em;
+}
+
+.output {
+	display: flex;
+	flex direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 200px;
+}
+
+#amount, #percent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	font-size: 2em;
+	color: black;
+	border-radius: 8px;
+	border: 1px solid black;
+	padding: 20px;
+	height: 8px;
+	width: 150px;
+	background-color: white;
+}
+
+.calculate-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	border: 2px solid black;
+	padding: 20px;
+	height: 2px;
+	width: 193px;
+	background-color: #f2f2f2;
+	font-size: 1em;
+	color: black;
+}
+
+.tip-percent {
+  display: flex;
+  justify-content: space-between;
+  width: 193px;
+  
+
+}
+
+#ten-percent, #fifteen-percent, #eighteen-percent {
+  width: 33%;
+  
+}
+
+#tip-percent {
+  display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	border: 2px solid black;
+	padding: 20px;
+	height: 2px;
+	width: 193px;
+	background-color: #f2f2f2;
+	font-size: 1em;
+	color: black;
+}
+
+#tip {
+	font-size: 2em;
+	justify-content: space-between;
+	margin: 100px;
+}
+
+#total {
+  font-size: 2em;
+	justify-content: space-between;
+	margin: 87px;
+}
